@@ -25,10 +25,20 @@ public class SituacaoAluno {
                 System.out.println("Reprovado! Até mais tarde!");
             } else {
                 System.out.println("Final! Fica mais um pouco...");
-            }
+                double notaFinal, mediaFinal;
+
+                System.out.print("Digite a nota final: ");
+                notaFinal = scan.nextDouble();
+
+                mediaFinal = (media + notaFinal)/2;
+                System.out.println("Media Final: " + mediaFinal);
+                // situação no caso da final
+                if (mediaFinal >= 5.0) {
+                    System.out.println("Aprovado na Final!");
+                } else {
+                    System.out.println("Reprovado na Final!");
+                }
+             }
         }
-
-
-
     }
 }

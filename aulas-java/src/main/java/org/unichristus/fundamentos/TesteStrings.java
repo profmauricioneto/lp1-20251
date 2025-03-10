@@ -1,4 +1,4 @@
-package org.unichristus;
+package org.unichristus.fundamentos;
 
 public class TesteStrings {
     public static void main(String[] args) {

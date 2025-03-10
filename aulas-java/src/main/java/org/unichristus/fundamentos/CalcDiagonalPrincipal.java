@@ -1,4 +1,4 @@
-package org.unichristus;
+package org.unichristus.fundamentos;
 
 import java.util.*;
 

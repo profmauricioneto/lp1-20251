@@ -1,4 +1,4 @@
-package org.unichristus;
+package org.unichristus.fundamentos;
 
 public class SaidaDeDados {
     public static void main(String[] args) {

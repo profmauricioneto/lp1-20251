@@ -1,0 +1,1 @@
+window.alert("Olá do JS vindo por uma chamada externa");

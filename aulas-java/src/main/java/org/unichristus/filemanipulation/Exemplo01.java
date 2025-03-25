@@ -1,6 +1,7 @@
 package org.unichristus.filemanipulation;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -33,6 +34,28 @@ public class Exemplo01 {
                     System.out.println("Escrita em arquivo com sucesso.");
                 } catch(IOException e) {
                     System.out.println(e.getMessage());
+                }
+                break;
+            }
+            case 2: {
+                try {
+                    File file = new File(filename.concat(".txt"));
+                    Scanner scannerReader = new Scanner(file);
+                    while(scannerReader.hasNextLine()) {
+                        String line = scannerReader.nextLine();
+                        System.out.println(line);
+                    }
+                } catch(FileNotFoundException e) {
+                    System.err.println(e.getMessage());
+                }
+                break;
+            }
+            case 3: {
+                File file = new File(filename.concat(".txt"));
+                if(file.delete()) {
+                    System.out.println("Arquivo foi deletado com sucesso!");
+                } else {
+                    System.err.println("Erro ao deletar arquivo!");
                 }
                 break;
             }

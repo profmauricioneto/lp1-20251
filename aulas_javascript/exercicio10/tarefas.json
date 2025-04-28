@@ -1,0 +1,117 @@
+[
+    {
+        "title": "estudar javascript",
+        "description": "estudar o conteudo de javascript",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar python",
+        "description": "estudar o conteudo de python",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar java",
+        "description": "estudar o conteudo de java",
+        "isCompleted": true
+    },
+    {
+        "title": "estudar c#",
+        "description": "estudar o conteudo de c#",
+        "isCompleted": true
+    },
+    {
+        "title": "estudar c++",
+        "description": "estudar o conteudo de c++",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar php",
+        "description": "estudar o conteudo de php",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar ruby",
+        "description": "estudar o conteudo de ruby",
+        "isCompleted": true
+    }
+    ,
+    {
+        "title": "estudar go",
+        "description": "estudar o conteudo de go",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar swift",
+        "description": "estudar o conteudo de swift",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar kotlin",
+        "description": "estudar o conteudo de kotlin",
+        "isCompleted": true
+    }
+    ,
+    {
+        "title": "estudar rust",
+        "description": "estudar o conteudo de rust",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar typescript",
+        "description": "estudar o conteudo de typescript",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar dart",
+        "description": "estudar o conteudo de dart",
+        "isCompleted": true
+    }
+    ,
+    {
+        "title": "estudar elixir",
+        "description": "estudar o conteudo de elixir",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar scala",
+        "description": "estudar o conteudo de scala",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar clojure",
+        "description": "estudar o conteudo de clojure",
+        "isCompleted": true
+    }
+    ,
+    {
+        "title": "estudar haskell",
+        "description": "estudar o conteudo de haskell",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar lua",
+        "description": "estudar o conteudo de lua",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar elixir",
+        "description": "estudar o conteudo de elixir",
+        "isCompleted": true
+    }
+    ,
+    {
+        "title": "estudar crystal",
+        "description": "estudar o conteudo de crystal",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar ocaml",
+        "description": "estudar o conteudo de ocaml",
+        "isCompleted": false
+    },
+    {
+        "title": "estudar f#",
+        "description": "estudar o conteudo de f#",
+        "isCompleted": true
+    }
+]

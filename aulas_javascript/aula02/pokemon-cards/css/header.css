@@ -1,0 +1,12 @@
+header {
+    background-color: #1a27e0;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2em;
+}

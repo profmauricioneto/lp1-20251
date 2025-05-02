@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 25vw;
+    padding: 1.1em;
+    margin: 1em;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+button {
+    border: none;
+    border-radius: 0.3em;
+    padding: 10px;
+}
+
+.btn-buy:hover, .btn-like:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.liked {
+    background-color: #1a27e0;
+    color: #fff;
+}

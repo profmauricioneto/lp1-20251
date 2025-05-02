@@ -1,2 +1,2 @@
 console.log("Hello World");
-alert("Pagina online");
+window.alert("Pagina online");

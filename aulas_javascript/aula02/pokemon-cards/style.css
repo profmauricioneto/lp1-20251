@@ -1,0 +1,190 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #1a27e0;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Estilo do container principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    gap: 1.5em;
+}
+
+/* Estilo das cartas */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.card h4 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.card p {
+    margin: 0.5em 0;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Estilo dos botões */
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 0.8em 1.2em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-buy {
+    background-color: #28a745;
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+.btn-buy:hover {
+    background-color: #218838;
+}
+
+.btn-like {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-like:hover {
+    background-color: #0056b3;
+}
+
+.liked {
+    background-color: #ffc107 !important;
+    color: #333 !important;
+}
+
+/* Estilo do formulário */
+#new-card-form {
+    margin-top: 2em;
+    padding: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Garante que o padding não ultrapasse o limite */
+}
+
+#new-card-form h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Garante que os campos respeitem a largura do formulário */
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 0.8em;
+    background-color: #1a27e0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1620b0;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1a27e0;
+    color: #fff;
+    margin-top: 2em;
+
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}

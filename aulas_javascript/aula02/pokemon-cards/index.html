@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartas Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header-page">
+        <h2>Aplicação de Cartas Pokemon</h2>
+    </header>
+    <main>
+        <div class="card">
+            <img src="./assets/charizard.jpg" alt="charizard"/>
+            <h4 class="title">Carta Charizard</h4>
+            <p class="price">R$: 10,00</p>
+            <p class="description">Carta rara do Charizard!</p>
+
+            <div>
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-like">Curtir</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/lucario.jpg" alt="lucario"/>
+            <h4 class="title">Carta Lucario</h4>
+            <p class="price">R$: 20,00</p>
+            <p class="description">Carta rara do Lucario!</p>
+
+            <div>
+                <button class="btn-buy">Comprar</button>
+                <button class="btn-like">Curtir</button>
+            </div>
+        </div>
+    </main>
+
+    <form id="new-card-form">
+        <h3>Adicionar Nova Carta</h3>
+        <div class="form-group">
+            <label for="card-name">Nome da Carta:</label>
+            <input type="text" id="card-name" name="card-name" placeholder="Digite o nome da carta" required>
+        </div>
+        <div class="form-group">
+            <label for="card-price">Preço:</label>
+            <input type="number" id="card-price" name="card-price" placeholder="Digite o preço" required>
+        </div>
+        <div class="form-group">
+            <label for="card-description">Descrição:</label>
+            <textarea id="card-description" name="card-description" placeholder="Digite a descrição da carta" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="card-image">Imagem:</label>
+            <input type="file" id="card-image" name="card-image" accept="image/*" required>
+        </div>
+        <button type="submit" class="btn-submit">Adicionar Carta</button>
+    </form>
+
+    <footer>
+        <p>Desenvolvido por <a href="#">Prof. Maurício Neto</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

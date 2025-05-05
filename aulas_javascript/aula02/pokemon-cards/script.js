@@ -1,15 +1,5 @@
 'use strict';
 
-let buttons = document.getElementsByClassName('btn-like');
-
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', () => {
-            buttons[i].classList.toggle('liked');
-    })
-}
-
-'use strict';
-
 // Função para adicionar uma nova carta
 function addNewCard(event) {
     event.preventDefault(); 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List de Linguagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="body-todo">
+        <h3>ToDo List de Linguagens</h3>
+        <div id="enter-data">
+            <label for="language" id="language">
+                Linguagem
+                <input type="text" name="language-input" id="language-input" placeholder="linguagem de programação" />
+            </label>
+
+            <label for="level">
+                Nível
+                <select name="level" id="level">
+                    <option value="iniciante">Iniciante</option>
+                    <option value="mediano">Mediano</option>
+                    <option value="senior">Senior</option>
+                </select>
+            </label>
+            <button onclick="newLineInput()">Adicionar</button>
+            </div>
+
+
+        <div id="table">
+            <table id="table-todolist">
+                <thead>
+                    <tr>
+                        <th>Linguagem</th>
+                        <th>Nível</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- inserir via js as linhas -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

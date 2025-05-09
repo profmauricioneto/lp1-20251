@@ -1,0 +1,23 @@
+#enter-data {
+    height: 10vh;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#language {
+    padding: 10px;
+    margin: 1.1em;
+}
+
+#level {
+    padding: 10px;
+    margin: 1.1em;
+}
+

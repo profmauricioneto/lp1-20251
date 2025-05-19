@@ -1,0 +1,23 @@
+@import url('./header.css');
+@import url('./input-data.css');
+@import url('./list-item.css');
+
+:root {
+    --color-white: #fff;
+    --color-blue-dark: #03045e;
+    --color-blue: #00b4d8;
+    --color-black: #000;
+    --color-green: #5ac7aa;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.done {
+    background-color: var(--color-green);
+    color: var(--color-black);
+    text-decoration: line-through;
+}

@@ -1,0 +1,25 @@
+#input-data #task{
+    margin: 20px;
+    padding: 20px;
+    width: 70vw;
+    border-radius: 10px;
+    border: 1px solid var(--color-black);
+    font-size: larger;
+}
+
+#input-data button {
+    width: 20vw;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    color: var(--color-white);
+    background-color: var(--color-blue-dark);
+}
+
+#input-data button:hover {
+    background-color: var(--color-blue);
+    color: var(--color-black);
+}
+

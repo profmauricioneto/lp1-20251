@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoramento de Sistema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Monitoramento de Sistema</h1>
+  <div id="stats">
+    <p><strong>Uso da CPU:</strong> <span id="cpu">Carregando...</span>%</p>
+    <p><strong>Uso de Memória:</strong> <span id="memory">Carregando...</span>%</p>
+  </div>
+  <canvas id="cpuChart" width="400" height="200"></canvas>
+  <canvas id="memoryChart" width="400" height="200"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="renderer.js"></script>
+</body>
+
+</html>

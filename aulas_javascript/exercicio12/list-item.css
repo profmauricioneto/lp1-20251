@@ -1,9 +1,22 @@
 #todo-list li {
+    display: flex;
+    justify-content: space-around;
     margin: 20px;
     padding: 20px;
     list-style: none;
     border-radius: 10px;
     border: 1px solid var(--color-black);
     font-size: x-large;
+}
+
+.remove {
+    width: 10vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    color: var(--color-white);
+    background-color: var(--color-blue-dark);
 }
 

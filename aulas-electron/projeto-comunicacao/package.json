@@ -1,0 +1,16 @@
+{
+  "name": "projeto-comunicacao",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^36.4.0",
+    "systeminformation": "^5.27.1"
+  }
+}

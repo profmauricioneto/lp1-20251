@@ -1,6 +1,6 @@
 const { app, BrowserWindow, ipcMain, ipcRenderer } = require('electron');
 const path = require('path');
-const si = require('systeminformation'); // Bibliote para pegar dados do sistema
+const si = require('systeminformation');
 
 let win;
 
@@ -9,7 +9,7 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js') // Definindo o arquivo preload.js
+      preload: path.join(__dirname, 'preload.js')
     }
   });
 
@@ -20,7 +20,6 @@ function createWindow() {
   });
 }
 
-// Função para obter informações sobre o sistema (uso de CPU e Memória)
 async function getSystemStats() {
   try {
     const cpuUsage = await si.currentLoad();

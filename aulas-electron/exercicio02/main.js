@@ -1,6 +1,7 @@
 const { app, BrowserWindow, dialog, ipcMain } = require("electron");
 const path = require("path");
 const fs = require("fs");
+const { log } = require("console");
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -18,7 +19,7 @@ function createWindow() {
 app.whenReady().then(createWindow);
 
 ipcMain.handle("save-note", async (event, content) => {
-  const { filepath } = await dialog.showSaveDialog({
+  const { filePath } = await dialog.showSaveDialog({
     defaultPath: "note.md",
     filters: [{ name: "Markdown Files", extensions: ["md"] }],
   });
@@ -29,3 +30,4 @@ ipcMain.handle("save-note", async (event, content) => {
   }
   return "cancel";
 });
+

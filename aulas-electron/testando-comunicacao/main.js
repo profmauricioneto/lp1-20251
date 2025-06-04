@@ -19,4 +19,9 @@ ipcMain.on('canal-mensagem', (event, message) => {
     console.log(`Mensagem: ${new String(message)}`);
 
     event.reply('canal-resposta', 'mensagem sendo enviada para a renderer')
+});
+
+ipcMain.handle('request-data', async (event, data) => {
+    console.log('Dados recebidos pelo RENDERER :', data);
+    return 'Respondendo a renderer pela Main';
 })

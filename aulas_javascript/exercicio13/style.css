@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+#produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+#produtos input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#produtos button {
+    padding: 10px;
+    background-color: #2a8ccc;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#tabela-carrinho {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabela-carrinho thead {
+    background-color: #333;
+    color: #fff;
+}
+
+thead, tbody, th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#total {
+    font-weight: bold;
+    color: red;
+}

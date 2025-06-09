@@ -13,6 +13,7 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 1;
     text-align: center;
     margin: 10px;
 }
@@ -35,7 +36,8 @@ h3 {
 
 #tabela-carrinho {
     border-collapse: collapse;
-    width: 100%;
+    width: 80vw;
+    margin: 20px;
 }
 
 #tabela-carrinho thead {
@@ -46,6 +48,10 @@ h3 {
 thead, tbody, th, td {
     padding: 10px;
     border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
 }
 
 #total {

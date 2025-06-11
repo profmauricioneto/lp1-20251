@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#form-tasks {
+    width:100%;
+}
+
+#form-tasks input, select {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#form-tasks input {
+    width: 70%;
+}
+
+#form-tasks select {
+    width: 20%;
+}
+
+#form-tasks div {
+    display: flex;
+    justify-content: center;
+}
+
+#form-tasks button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f9b40;
+    margin: 10px;
+}
+
+#task-list {
+    width: 100%;
+}
+
+#task-list li {
+    list-style: none;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+#task-list li:nth-child(even) {
+    background-color: #eee;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas com Prioridade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Ordered TODO List</h2>
+    <form id="form-tasks">
+        <input type="text" id="task-input" placeholder="entre com a tarefa..."/>
+
+        <select id="task-level">
+            <option value="high">Alto</option>
+            <option value="medium">Médio</option>
+            <option value="low">Baixo</option>
+        </select>
+
+        <div>
+            <button type="submit">Adicionar</button>
+        </div>
+    </form>
+
+    <!-- lista -->
+     <ul id="task-list">
+     </ul>
+
+     <script src="script.js"></script>
+</body>
+</html>

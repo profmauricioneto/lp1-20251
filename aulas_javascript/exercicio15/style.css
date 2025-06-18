@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#main {
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+}
+
+.column {
+    text-align: center;
+    border: 5px solid #eee;
+    height: 100vh;
+}
+
+.column button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aaa;
+}
+
+.card {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: auto;
+    background-color: #ddf31b;
+    box-shadow: 10px 5px 5px #ddd;
+}
+
+.card:hover {
+    border: 1px solid red;
+    scale: 1.005;
+}
